@@ -24,7 +24,7 @@ if(data[2] == 'read'){
     present(read())
 
 }
-if(data[2] === 'dalete'){
+if(data[2] === 'delete'){
     let id = data[3];
     let oldNote = read()
     let del = require('./del')
